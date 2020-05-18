@@ -1,3 +1,4 @@
+#!/bin/python
 import os,sys
 out=os.popen("kubeadm config images list").read()
 print("-"*40)
